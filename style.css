@@ -1,0 +1,427 @@
+
+/*HEADER*/
+#header
+{
+	height: 125px;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-bottom: 1px;
+	margin-bottom: 0px;
+}
+
+#header h1
+{
+	margin: 0px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#header p, #header a
+{
+	margin-top: 80px;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-style: normal;
+	text-align: right;
+}
+
+#header a:hover
+{
+	text-decoration: underline;
+}
+
+/*MAIN*/
+body
+{
+	font-family: Arial;
+	margin: auto;
+	width: 955px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#content
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	clear:both;
+	background-color: white;
+}
+
+/*TOP_MENU*/
+#top_menu
+{
+	width: 100%;
+	height: 380px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #009933;
+}
+
+#top_menu img
+{
+	height:100%;
+	width: 640px;
+}
+
+#top_menu  ul
+{
+	width: 280px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	text-indent: 20px;
+	list-style: none;
+	float: left;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+#top_menu ul li
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	line-height: 40px;
+}
+
+.title_nav_v
+{
+	font-size: 19px;
+	background-color: #009933;
+	font-weight: normal;
+	color: white;
+	text-align: justify;
+	text-transform: uppercase;
+	float: left;
+	clear: both;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.element_nav_v
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 25px;
+	padding-bottom: 0px;
+}
+
+.element_nav_v:hover
+{
+	padding-left: 25px;
+	clear: both;
+	width: 100%;
+	background-image: url(misc/fleche.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: 15px 10px;
+	color: white;
+}
+
+.nav_v
+{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	text-align: left;
+}
+
+/*DESCRIBE*/
+#describe
+{
+	clear: both;
+	float: left;
+	margin-top: -15px;
+	width: 266px;
+}
+
+#describe h2
+{
+	clear: both;
+	border-bottom: solid 2px black;
+	font-size: 19px;
+	color: #009933;
+}
+
+.describe_h2
+{
+	color: black;
+	text-transform: uppercase;
+}
+
+#describe ul
+{
+	padding-left: 0px;
+}
+
+#describe li
+{
+	font-size: 80%;
+	list-style: none;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-image: url(misc/triangle.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+#describe li p
+{
+	margin-bottom: -30px;
+}
+
+#hotel_locate
+{
+	border-top: solid 2px black;
+	padding-top: 20px;
+}
+
+.bold_green
+{
+	color: #009933;
+	font-weight: bold;
+}
+
+input
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;
+	border: none;
+	background-color: #009933;
+	margin-bottom: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+input:hover
+{
+	background-color: black;
+	cursor: pointer;
+}
+
+#describe object
+{
+	width: 266px;
+	height:185px;
+}
+
+/*SITUATION*/
+#situation
+{
+	margin-right: 35px;
+	margin-top: 0px;
+	width: 640px;
+	height: 255px;
+	background-color: #cccccc;
+	float: right;
+}
+
+#situation h2
+{
+	float: right;
+	margin-right: 25px;
+	padding-right: 65px;
+	border-bottom: solid 2px black;
+	font-size: 19px;
+	color: #009933;
+}
+
+#situation #img
+{
+	float: left;
+	display: inline;
+	margin-top: 15px;
+}
+
+#situation p
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 80%;
+	text-align: left;
+}
+
+.green_p
+{
+	color: #093;
+}
+
+/*DISCOVER*/
+#discover
+{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 315px;
+	height: 353px;
+	background-color: #ccc;
+	float: left;
+}
+
+#discover h2
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	clear: both;
+	border-bottom: solid 2px black;
+	font-size: 19px;
+	color: #009933;
+}
+
+#discover img
+{
+	clear: left;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#discover h3
+{
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 80%;
+}
+
+#discover p
+{
+	font-size: 80%;
+}
+
+#dis_1
+{
+	clear: both;
+	margin: 5px;
+}
+
+#dis_2
+{
+	clear: both;
+	margin: 5px;
+}
+
+#discover input
+{
+	margin: 5px;
+}
+
+#discover a
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #093;
+}
+
+#discover a:hover{
+	color: white;
+}
+
+.upper
+{
+	text-transform: uppercase;
+}
+
+/*SPECIALES*/
+#speciales
+{
+	margin-top: 15px;
+	margin-left: 9px;
+	width: 315px;
+	height: 353px;
+	background-color: #093;
+	float: left;
+}
+
+#speciales h2
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	clear: both;
+	border-bottom: solid 2px black;
+	font-size: 19px;
+	color: white;
+}
+
+#speciales p
+{
+	display: inline;
+	float: right;
+}
+
+#speciales p img
+{
+	display: inline;
+	float: left;
+}
+
+table
+{
+	border-collapse: collapse;
+	padding: 5px;
+	width:315px;
+}
+
+td
+{
+	border-bottom: solid 1px black;
+}
+
+tr:hover
+{
+	background-color: #ccc;
+	color: #093;
+}
+
+.room_list
+{
+	color: white;
+}
+
+.t_right
+{
+	margin-right: 0px;
+	text-align: right;
+}
+
+/*FOOTER*/
+#footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: #666666;
+}
+
+#footer p, #footer a
+{
+	text-decoration: none;
+	color: #666666;
+	font-size: 10px;
+	font-style: normal;
+	text-align: center;
+}
+
+#footer a:hover
+{
+	color: white;
+}
